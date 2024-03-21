@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shop|Omorfia</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+  
+  <style>
+    .navbar-brand {
+      font-family: 'Playfair Display', serif;
+      font-style: italic;
+      font-size: 180%;
+    }
+    .navbar-brand{
+      transition: font-size 0.3s;
+    }
+    .navbar-brand:hover{
+      font-size: 210%;
+    }
+    .btn-primary {
+      background-color: #ffb991;
+    }
+    .product-listing {
+      font-family: 'Playfair Display', serif;
+    }
+    .product-listing h2 {
+      color:#ffb991;
+      padding-top: 12px;
+    }
+    .navbar {
+      font-family: 'Playfair Display', serif;
+    }
+    .navbar-nav .nav-link {
+      transition: font-size 0.3s;
+    }
+    .navbar-nav .nav-link:hover {
+      font-size: 120%;
+    }
+    footer em {
+      font-style: italic;
+      font-size: 120%;
+    }
+    footer {
+      font-family: 'Playfair Display', serif;
+    }
+    .bg-F7DED0 {
+      background-color: #ffb991;
+    }
+    .card {
+      position: relative;
+      overflow: hidden;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .card:hover {
+      transform: scale(1.05);
+      box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    }
+    .col-md-4 {
+      transition: transform 0.3s;
+    }
+    .card:hover .col-md-4 {
+      transform: scale(1.2);
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #ffb991;">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Omorfia</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+             <a class="nav-link" href="shop.html">Shop</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="AboutUs.html">About Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Product Listing Section -->
+  <section class="product-listing">
+    <div class="container">
+      <h2 class="text-center mb-4">All Products</h2>
+      
+      <!-- Row 1 -->
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="img/f1.jpg" class="card-img-top" alt="Product Image" style="height: 500px; object-fit: cover;">
+            <div class="card-body">
+              <h5 class="card-title">Sunrise Symphony</h5>
+              <p class="card-text">₱670</p>
+              <a href="#" class="btn btn-primary">View Details</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="img/f2.jpg" class="card-img-top" alt="Product Image" style="height: 500px; object-fit: cover;">
+            <div class="card-body">
+              <h5 class="card-title">Enchanted Garden</h5>
+              <p class="card-text">₱850</p>
+              <a href="#" class="btn btn-primary">View Details</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="img/f3.jpg" class="card-img-top" alt="Product Image" style="height: 500px; object-fit: cover;">
+            <div class="card-body">
+              <h5 class="card-title">Royal Romance</h5>
+              <p class="card-text">₱820</p>
+              <a href="#" class="btn btn-primary">View Details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Row 1 -->
+
+      <!-- Row 2 -->
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="img/f4.jpg" class="card-img-top" alt="Product Image" style="height: 500px; object-fit: cover;">
+            <div class="card-body">
+              <h5 class="card-title">Golden Splendor</h5>
+              <p class="card-text">₱650</p>
+              <a href="#" class="btn btn-primary">View Details</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="img/f5.jpg" class="card-img-top" alt="Product Image" style="height: 500px; object-fit: cover;">
+            <div class="card-body">
+              <h5 class="card-title">Spring Blooms</h5>
+              <p class="card-text">₱550</p>
+              <a href="#" class="btn btn-primary">View Details</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="img/f6.jpg" class="card-img-top" alt="Product Image" style="height: 500px; object-fit: cover;">
+            <div class="card-body">
+              <h5 class="card-title">Sunny Serenade</h5>
+              <p class="card-text">₱750</p>
+              <a href="#" class="btn btn-primary">View Details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Row 2 -->
+
+      <!-- Row 3 -->
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="img/f7.jpg" class="card-img-top" alt="Product Image" style="height: 500px; object-fit: cover;">
+            <div class="card-body">
+              <h5 class="card-title">Blushing Blooms</h5>
+              <p class="card-text"> ₱850</p>
+              <a href="#" class="btn btn-primary">View Details</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="img/f8.jpg" class="card-img-top" alt="Product Image" style="height: 500px; object-fit: cover;">
+            <div class="card-body">
+              <h5 class="card-title">Rose Radiance</h5>
+              <p class="card-text">₱890</p>
+              <a href="#" class="btn btn-primary">View Details</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="img/f9.jpg" class="card-img-top" alt="Product Image" style="height: 500px; object-fit: cover;">
+            <div class="card-body">
+              <h5 class="card-title">Fairly and Justly</h5>
+              <p class="card-text">₱910</p>
+              <a href="#" class="btn btn-primary">View Details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Row 3 -->
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-F7DED0 text-white text-center py-3">
+    <div class="container">
+      &copy; 2024 <em>Omorfia</em>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
